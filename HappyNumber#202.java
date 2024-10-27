@@ -18,6 +18,7 @@ class Solution {
             digit=n%10;
             s+=digit*digit;
             n=n/10;
+            
         }
         return s;
     }
